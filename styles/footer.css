@@ -39,7 +39,7 @@
   background: rgb(171, 171, 171);
 }
 
-.products {
+.footer .products {
   width: 100%;
   height: 17rem;
   display: flex;
@@ -47,13 +47,13 @@
   align-items: center;
 }
 
-.product-title {
+.footer .product-title {
   font-size: 20px !important;
   line-height: 16px !important;
   color: black !important;
 }
 
-.product-list {
+.footer .product-list {
   display: flex;
   flex-direction: column;
   height: 10rem;
@@ -61,14 +61,14 @@
   gap: 20px 25px;
 }
 
-.product-list li {
+.footer .product-list li {
   color: #78909c;
   transition: all 0.25s;
   gap: 10px;
   font-size: 16px;
 }
 
-.product-list li:hover {
+.footer .product-list li:hover {
   color: #000;
   font-size: 17px;
 }
