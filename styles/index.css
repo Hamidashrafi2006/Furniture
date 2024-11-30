@@ -230,6 +230,7 @@ a {
   color: #607d8b;
   padding: 32px 0;
   font-weight: 200;
+  line-height: 1.3;
 }
 
 .l-p-title div {
@@ -249,9 +250,6 @@ a {
 
 .p-all img {
   width: 260px;
-}
-
-.p-all img:hover {
 }
 
 .p-all p,
@@ -280,4 +278,68 @@ del {
 
 .p-2 del {
   color: rgb(173, 173, 173);
+}
+
+.comments {
+  width: 100%;
+  background: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0;
+  padding: 50px 20px;
+}
+
+.comments-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.comments-title h1 {
+  color: #607d8b;
+  font-weight: 300;
+  line-height: 1.3;
+  padding-bottom: 20px;
+}
+
+.comments-title div {
+  width: 6%;
+  border: 1px solid #78909c;
+}
+
+.comments-elements {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  font-weight: 300;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+
+.user span {
+  font-weight: 100;
 }
