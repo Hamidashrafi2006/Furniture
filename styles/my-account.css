@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 60px;
+  align-items: center;
+  box-shadow: 0 0 2px 0px black;
+  gap: 16px;
+}
+
+.form-title {
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  color: #607d8b;
+  font-size: 2.8rem;
+}
+
+.text {
+  width: 400px;
+  padding: 14px 12px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.text::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  color: gray;
+}
+
+.checkbox {
+  accent-color: #607d8b;
+  cursor: pointer;
+}
+
+.checkbox-text {
+  font-size: 13px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  padding: 0 10px;
+  gap: 5px;
+}
+
+.button {
+  width: 400px;
+  border: 2px solid #607d8b;
+  color: #607d8b;
+  padding: 14px 12px;
+  transition: all 0.25s;
+  background: #fff;
+}
+
+.button:hover {
+  background: #607d8b;
+  color: snow;
+}
+
+.forgot-password {
+  color: #607d8b;
+  margin-top: 20px;
+}
+
+.forgot-password:hover {
+  color: #78909c;
+}
