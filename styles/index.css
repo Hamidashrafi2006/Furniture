@@ -248,8 +248,9 @@ a {
   padding: 0 0 10px 0;
 }
 
-.p-all img {
+.p-all-img {
   width: 260px;
+  height: 260px;
 }
 
 .p-all p,

@@ -27,16 +27,20 @@
   gap: 25px;
 }
 
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  fill: snow;
+}
+
 .contact-icons a {
-  background: snow;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
+  background: #78909c;
+  padding: 14px;
   transition: all 0.25s;
 }
 
 .contact-icons a:hover {
-  background: rgb(171, 171, 171);
+  background: #607d8b;
 }
 
 .footer .products {
@@ -66,6 +70,7 @@
   transition: all 0.25s;
   gap: 10px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .footer .product-list li:hover {

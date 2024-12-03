@@ -1,0 +1,115 @@
+.container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: start; */
+  margin-bottom: 50px;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  background: #fff;
+  color: #607d8b;
+  gap: 5px;
+  border: 2px solid #607d8b;
+  cursor: pointer;
+  /* transition: all 0.25s; */
+}
+
+/* .filter-btn , svg:hover {
+  background: #607d8b;
+  color: #fff;
+} */
+
+.filter-btn svg {
+  width: 20px;
+  height: 20px;
+  fill: #607d8b;
+}
+
+.filter-options {
+  display: flex;
+  gap: 16px;
+}
+
+.filter-option {
+  background: url("../icons/appearance.svg") no-repeat right;
+  appearance: none;
+  border: 1px solid #607d8b;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #607d8b;
+  cursor: pointer;
+}
+
+.filter-option-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.filter-option-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.filter-option-icon-1 {
+  fill: #607d8b;
+}
+
+.filter-option-icon-2 {
+  fill: #3a3a3a;
+}
+
+.p-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.p-all {
+  box-shadow: 0 0 2px -1px black;
+  padding: 0 0 10px 0;
+}
+
+.p-all-img {
+  width: 260px;
+  height: 260px;
+}
+
+.p-all p,
+del {
+  padding: 0 10px;
+}
+
+.p-title {
+  color: #78909c;
+  font-weight: 200;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.p-description {
+  margin-bottom: 0.5em;
+  padding: 0;
+  font-size: 1em;
+  color: #607d8b;
+}
+
+.p-price {
+  color: #3a3a3a;
+}
+
+.p-2 del {
+  color: rgb(173, 173, 173);
+}
